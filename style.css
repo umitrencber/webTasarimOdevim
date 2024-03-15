@@ -1,0 +1,111 @@
+body{
+    background-color: #f3f3f3;
+}
+
+.ul{
+    font-size: 18px;
+    font-family: monospace;
+}
+.hello{
+    font-size: 100px;
+    font-family: monospace;
+    margin-left: -5px;
+}
+.circle{
+    background-color: #eea302;
+    width: 100px;
+    height: 100px;
+   
+}
+.circle2{
+    background-color: #ff3b25;
+    width: 100px;
+    height: 100px;
+}
+.circle3{
+    background-color: #80d8da;
+    width: 100px;
+    height: 100px;
+}
+.circle4{
+    background-color: #08ef5d ;
+    width: 100px;
+    height: 100px;
+}
+
+.circle:hover,.circle2:hover,.circle3:hover,.circle4:hover,.submit:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #f3f3f3;
+    
+}
+/*  proje arası mesafe için */
+.margin{
+    margin-top: 120px;
+}
+/* contact */
+.submit{
+   height: 120px;
+   width: 150px;
+   background-color: orange;
+}
+.inputs{
+   border: 1px solid black;
+
+}
+.inputs:hover{
+    border: 2.2px solid black;
+}
+/* follow-me */
+.followBox{
+    height: 160px;
+    width: 125px;
+    background-color: #f7f7f7;
+    transition: 0.5s;
+    
+}
+.followBox:hover{
+    box-shadow: 20px 20px 50px grey;
+    cursor: pointer;
+}
+
+.bg-dark2{
+    background-color: rgb(24,26,32);
+}
+.input {
+    display: block;
+    width: 350px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 45px;
+    background-color: rgb(24,26,32);
+    color: white;
+    font-family: monospace;
+    
+  }
+  
+  /* Farklı durumlar için stiller */
+  .input:focus {
+    outline: none;
+    border: 2px solid #007bff;
+  }
+  
+  .input:hover {
+    border: 2px solid rgb(179, 182, 193);
+  }
+
+  .blogSitesineGit{
+    border: 2px solid white;
+    width: 220px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #f7f7f7;
+  }
+  .blogSitesineGit:hover{
+    text-decoration: none;
+    color: #007bff;
+    background-color: white;
+  }
+  
